@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dining - Protea Hotel Ndola</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="/style.css" />
+    <style>
+        html {
+            scroll-behavior: smooth;
+        }
+    </style>
+</head>
+<body class="font-sans">
+    <header class="bg-amber-900 text-white p-4">
+        <div class="container mx-auto flex flex-col md:flex-row justify-between items-center">
+            <a href="#" class="text-2xl font-bold mb-4 md:mb-0">Protea Hotel Ndola</a>
+            
+            <nav class="hidden md:flex space-x-4">
+                <a href="/home.html" class="hover:text-amber-200 transition duration-300">Home</a>
+                <a href="/rooms.html" class="hover:text-amber-200 transition duration-300">Rooms</a>
+                <a href="/dinning.html" class="text-amber-200 font-semibold">Dining</a>
+                <a href="/amenities.html" class="hover:text-amber-200 transition duration-300">Amenities</a>
+                <a href="/contact.html" class="hover:text-amber-200 transition duration-300">Contact</a>
+            </nav>
+            
+            <a href="/rooms.html" class="bg-amber-600 text-white px-4 py-2 rounded-full hover:bg-amber-700 transition duration-300 mt-2 md:mt-0">Book Now</a>
+        </div>
+    </header>
+
+    <main role="main">
+        <section class="relative h-[50vh]">
+            <div class="absolute inset-0 bg-black opacity-40"></div>
+            <img src="/Images/Dinning.jpg" alt="Dining at Protea Hotel Ndola" class="w-full h-full object-cover">
+            <div class="absolute inset-0 flex items-center justify-center text-center">
+                <h1 class="text-5xl md:text-7xl font-bold text-white mb-4">Culinary Delights</h1>
+            </div>
+        </section>
+
+        <section class="py-16 bg-white">
+            <div class="container mx-auto px-6">
+                <h2 class="text-4xl font-bold text-center mb-12">Our Dining Experiences</h2>
+                
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                    <div class="bg-stone-100 rounded-lg p-6 transform hover:scale-105 transition duration-300">
+                        <img src="/Images/restaurant.jpg" alt="Main Restaurant" class="w-full h-48 object-cover rounded-md mb-4">
+                        <h3 class="text-xl font-semibold mb-2">Main Restaurant</h3>
+                        <p>Experience a blend of local and international cuisine in our elegant main restaurant. Open for breakfast, lunch, and dinner.</p>
+                    </div>
+
+                    <div class="bg-stone-100 rounded-lg p-6 transform hover:scale-105 transition duration-300">
+                        <img src="/Images/Bar.jpg" alt="Lounge Bar" class="w-full h-48 object-cover rounded-md mb-4">
+                        <h3 class="text-xl font-semibold mb-2">Lounge Bar</h3>
+                        <p>Unwind with a cocktail or light snack in our comfortable lounge bar, featuring a selection of local and imported beverages.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="py-16 bg-amber-900 text-white">
+            <div class="container mx-auto px-6 text-center">
+                <h2 class="text-4xl font-bold mb-8">Special Dining Experiences</h2>
+                <p class="mb-8">From romantic dinners to business lunches, we cater to all your needs</p>
+                <a href="#" class="bg-white text-amber-900 px-8 py-3 rounded-full text-lg hover:bg-amber-100 transition duration-300">Make a Reservation</a>
+            </div>
+        </section>
+    </main>
+
+    <footer class="bg-amber-900 text-white py-8">
+        <div class="container mx-auto px-6">
+            <div class="flex flex-wrap justify-between">
+                <div class="w-full md:w-1/4 mb-6 md:mb-0">
+                    <h3 class="text-lg font-semibold mb-2">Protea Hotel Ndola</h3>
+                    <p>Luxury stays in the heart of Zambia</p>
+                </div>
+                
+                <div class="w-full md:w-1/4 mb-6 md:mb-0">
+                    <h3 class="text-lg font-semibold mb-2">Quick Links</h3>
+                    <ul>
+                        <li><a href="/home.html" class="hover:text-amber-300">Home</a></li>
+                        <li><a href="/rooms.html" class="hover:text-amber-300">Rooms</a></li>
+                        <li><a href="/dinning.html" class="hover:text-amber-300">Dining</a></li>
+                        <li><a href="/amenities.html" class="hover:text-amber-300">Amenities</a></li>
+                        <li><a href="/contact.html" class="hover:text-amber-300">Contact</a></li>
+                    </ul>
+                </div>
+                
+                <div class="w-full md:w-1/4 mb-6 md:mb-0">
+                    <h3 class="text-lg font-semibold mb-2">Contact Us</h3>
+                    <p>123 Hotel Street, Ndola, Zambia</p>
+                    <p>Phone: +260 123 456 789</p>
+                    <p>Email: info@proteandola.com</p>
+                </div>
+                
+                <div class="w-full md:w-1/4">
+                    <h3 class="text-lg font-semibold mb-2">Follow Us</h3>
+                    <div class="flex space-x-4">
+                        <a href="#" class="text-white hover:text-amber-300">Facebook</a>
+                        <a href="#" class="text-white hover:text-amber-300">Twitter</a>
+                        <a href="#" class="text-white hover:text-amber-300">Instagram</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Protea Hotel Ndola</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="/style.css" />
+</head>
+<body class="font-sans">
+    <header class="bg-amber-900 text-white p-4">
+        <div class="container mx-auto flex flex-col md:flex-row justify-between items-center">
+            <a href="#" class="text-2xl font-bold mb-4 md:mb-0">Protea Hotel Ndola</a>
+            <nav class="flex flex-col md:flex-row space-y-2 md:space-y-0 md:space-x-4">
+                <a href="/home.html" class="hover:text-amber-200 transition duration-300">Home</a>
+                <a href="/rooms.html" class="hover:text-amber-200 transition duration-300">Rooms</a>
+                <a href="/dinning.html" class="hover:text-amber-200 transition duration-300">Dining</a>
+                <a href="/amenities.html" class="hover:text-amber-200 transition duration-300">Amenities</a>
+                <a href="/contact.html" class="text-amber-200 font-semibold">Contact</a>
+            </nav>
+            <a href="/rooms.html" class="bg-amber-600 text-white px-4 py-2 rounded-full hover:bg-amber-700 transition duration-300 mt-4 md:mt-0">Book Now</a>
+        </div>
+    </header>
+
+    <main role="main">
+        <section class="relative h-[50vh]">
+            <div class="absolute inset-0 bg-black opacity-40"></div>
+            <img src="/Images/Contact.jpeg" alt="Contact Us" class="w-full h-full object-cover">
+            <div class="absolute inset-0 flex items-center justify-center text-center">
+                <h1 class="text-5xl md:text-7xl font-bold text-white mb-4">Get in Touch</h1>
+            </div>
+        </section>
+
+        <section class="py-16 bg-white">
+            <div class="container mx-auto px-6">
+                <h2 class="text-4xl font-bold text-center mb-12">Contact Us</h2>
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                    <div class="bg-stone-100 rounded-lg p-6">
+                        <h3 class="text-2xl font-semibold mb-4">Send Us a Message</h3>
+                        <form>
+                            <div class="mb-4">
+                                <label for="name" class="block mb-2">Name</label>
+                                <input type="text" id="name" name="name" class="w-full p-2 border rounded" required>
+                            </div>
+                            <div class="mb-4">
+                                <label for="email" class="block mb-2">Email</label>
+                                <input type="email" id="email" name="email" class="w-full p-2 border rounded" required>
+                            </div>
+                            <div class="mb-4">
+                                <label for="message" class="block mb-2">Message</label>
+                                <textarea id="message" name="message" rows="4" class="w-full p-2 border rounded" required></textarea>
+                            </div>
+                            <button type="submit" class="bg-amber-600 text-white px-4 py-2 rounded hover:bg-amber-700 transition duration-300">Send Message</button>
+                        </form>
+                    </div>
+                    <div class="bg-stone-100 rounded-lg p-6">
+                        <h3 class="text-2xl font-semibold mb-4">Contact Information</h3>
+                        <p class="mb-2"><strong>Address:</strong> 123 Hotel Street, Ndola, Zambia</p>
+                        <p class="mb-2"><strong>Phone:</strong> +260 123 456 789</p>
+                        <p class="mb-4"><strong>Email:</strong> info@proteandola.com</p>
+                        <h4 class="text-xl font-semibold mb-2">Follow Us</h4>
+                        <div class="flex space-x-4">
+                            <a href="#" class="text-amber-600 hover:text-amber-800">Facebook</a>
+                            <a href="#" class="text-amber-600 hover:text-amber-800">Twitter</a>
+                            <a href="#" class="text-amber-600 hover:text-amber-800">Instagram</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="py-16 bg-amber-900 text-white">
+            <div class="container mx-auto px-6 text-center">
+                <h2 class="text-4xl font-bold mb-8">Ready to Book Your Stay?</h2>
+                <p class="mb-8">Experience luxury and comfort at Protea Hotel Ndola</p>
+                <a href="/rooms.html" class="bg-white text-amber-900 px-8 py-3 rounded-full text-lg hover:bg-amber-100 transition duration-300">Book Now</a>
+            </div>
+        </section>
+    </main>
+
+    <footer class="bg-amber-900 text-white py-8">
+        <div class="container mx-auto px-6">
+            <div class="flex flex-wrap justify-between">
+                <div class="w-full md:w-1/4 mb-6 md:mb-0">
+                    <h3 class="text-lg font-semibold mb-2">Protea Hotel Ndola</h3>
+                    <p>Luxury stays in the heart of Zambia</p>
+                </div>
+                <div class="w-full md:w-1/4 mb-6 md:mb-0">
+                    <h3 class="text-lg font-semibold mb-2">Quick Links</h3>
+                    <ul>
+                        <li><a href="/home.html" class="hover:text-amber-300">Home</a></li>
+                        <li><a href="/rooms.html" class="hover:text-amber-300">Rooms</a></li>
+                        <li><a href="/dinning.html" class="hover:text-amber-300">Dining</a></li>
+                        <li><a href="/amenities.html" class="hover:text-amber-300">Amenities</a></li>
+                        <li><a href="/contact.html" class="hover:text-amber-300">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="w-full md:w-1/4 mb-6 md:mb-0">
+                    <h3 class="text-lg font-semibold mb-2">Contact Us</h3>
+                    <p>123 Hotel Street, Ndola, Zambia</p>
+                    <p>Phone: +260 123 456 789</p>
+                    <p>Email: info@proteandola.com</p>
+                </div>
+                <div class="w-full md:w-1/4">
+                    <h3 class="text-lg font-semibold mb-2">Follow Us</h3>
+                    <div class="flex space-x-4">
+                        <a href="#" class="text-white hover:text-amber-300">Facebook</a>
+                        <a href="#" class="text-white hover:text-amber-300">Twitter</a>
+                        <a href="#" class="text-white hover:text-amber-300">Instagram</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
